@@ -19,4 +19,14 @@ $ npm start
 $ npm run generate
 ```
 
+## Deploy
+gcloud コマンドが最新にする
+
+```bash
+$ npm install
+$ npm run build
+$ gcloud app deploy
+```
+
+
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
